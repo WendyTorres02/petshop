@@ -43,41 +43,43 @@
 
         <div class="image-petshop">
             <div class="caja-1">
-                <h2>¡Es un placer tenerte aquí! </h2>
-                <p class="anuncio">¡Comederos en descuento!</p>
-                <button class="button-1">Comederos</button>
+                <div>
+                    <h2>¡Es un placer tenerte aquí! </h2>
+                </div>
+                <p class=>¡Comederos en descuento!</p>
+                <button class=>Comederos</button>
             </div>
         </div>
-        <div>
     </header>
     <main>
         <section>
-            <img class="huella" src="./img/Logo2.png" alt="Huella">
-            <h1 class="center">Productos Destacados</h1>
-            <ul class="destacados">
+            <div class="destacado">
+                <img src="./img/Logo2.png" alt="Huella">
+                <h1>Productos Destacados</h1>
+                <ul class="destacados">
 
-                <li>Comederos</li>
-                <li>- Accesorios</li>
-                <li>- Comida</li>
+                    <li type="none">Comederos</li>
+                    <li type="none">- Accesorios</li>
+                    <li type="none">- Comida</li>
 
-            </ul>
+                </ul>
+            </div>
             <div class="productos">
                 <div class="tarjeta">
                     <img src="./img/Imagen2.png" alt="Churrasquillo">
-                    <p>Juguete Churrasquito</p>
+                    <h3>Juguete Churrasquito</h3>
                     <p>$150</p>
                 </div>
                 <div class="tarjeta">
                     <img src="./img/Imagen3.png" alt="Comedero" />
-                    <p>Comedero para perro</p>
+                    <h3>Comedero para perro</h3>
                     <p>$250</p>
                 </div>
                 <div class="tarjeta">
                     <img src="./img/Imagen4.png" alt="Juguete" />
-                    <p>Juguete Huesito</p>
+                    <h3>Juguete Huesito</h3>
                     <p>$650</p>
                 </div>
-            </div>
             </div>
         </section>
         <section>
@@ -87,9 +89,9 @@
                 <input placeholder="Nombre y apellido" type="text" />
                 <input placeholder="Ingresa tu correo electrónico" type="email" />
                 <input placeholder="teléfono" type="tel" />
-                <div class="formulario-botones">
-                    <button class="button-2">Resetear</button>
-                    <button class="button-3">Enviar</button>
+                <div>
+                    <button class="button-izquierda">Resetear</button>
+                    <button class="button-derecha">Enviar</button>
                 </div>
             </div>
         </section>
@@ -97,35 +99,38 @@
     <footer>
         <div class="footer-1">
             <h2> <img src="./img/Message.svg" alt="Suscribirse"> Suscríbete para más novedades</h2>
-            <input placeholder="Ingresa tu correo electrónico" type="email">
-            <button>Suscrbirme</button>
+            <div>
+                <input placeholder="Ingresa tu correo electrónico" type="email">
+                <button>Suscrbirme</button>
+            </div>
         </div>
         <div class="footer-2">
-            <div class="izquierda">
-                <div class="contacto">
+            <div class="footer-datos">
+                <div class="footer-informacion">
                     <img src="./img/Location.svg" alt="Localidad">
-                    <div>
+                    <div class="footer-info-content">
                         <p class="infromación-1">Localidad</p>
                         <p class="infromación-2">Calle-Provincia</p>
                     </div>
                 </div>
-                <div class="contacto">
+                <div class="footer-informacion">
                     <img src="./img/Phone.svg" alt="Telefono">
-                    <div>
+                    <div class="footer-info-content">
                         <p class="infromación-1">Teléfono</p>
                         <p class="infromación-2">Número de teléfono</p>
                     </div>
                 </div>
-                <div class="contacto">
+                <div class="footer-informacion">
                     <img src="./img/Email.svg" alt="Email">
-                    <div>
+                    <div class="footer-info-content">
                         <p class="infromación-1">Correo Electrónico</p>
                         <p class="infromación-2">Dirección de correo</p>
                     </div>
                 </div>
             </div>
-            <div class="derecha"></div>
-
+            <div class="footer-img"> 
+                <img src="./img/Logo final.png" alt="logo">
+             </div>
         </div>
         <div class="footer-3">
             <p>Todos los derechos reservados Front End</p>

@@ -42,3 +42,271 @@ body {
     color:#FFFFFF;
     text-decoration: none;
 }
+
+.image-petshop {
+    background-image: url(./img/Imagen1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 409px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 30px;
+}
+
+.caja-1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.caja-1 h2{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #3C2313;
+    margin: 0;
+}
+
+.caja-1 div {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.caja-1 p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #3C2313;
+}
+
+.caja-1 button{
+    background-color: #F0A83E;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 23px 15px 23px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: white;
+}
+
+.destacado{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px 0;
+}
+
+.destacado h1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 47px;
+    color: #3C2313;
+    margin: 0;
+
+}
+
+.destacado ul{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: #666666;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.productos{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 500px;
+
+}
+.tarjeta {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #faf9f6;
+ 
+}
+
+.tarjeta h3{
+    margin: 0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #3C2313;
+   
+}
+
+.tarjeta p{
+    margin: 0;
+    color: #F0A83E;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.formulario{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+   
+}
+
+.formulario h2{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 29px;
+    color: #3C2313;
+    margin-top: 100px;
+    
+}
+
+.formulario input{
+    background-color: #3C2313;
+    border: none;
+    border-radius: 15px;
+    padding:  10px 100px ;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.formulario button{
+    border: none;
+    border-radius: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 100px;
+
+}
+
+.button-izquierda{
+    background-color: #8A8787;
+    padding: 8px 25px;
+}
+
+.button-derecha{
+    background-color: #F0A83E;
+    padding: 8px 35px;
+    
+}
+
+.footer-1{
+    background-color: #F0A83E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.footer-1 h2{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.footer-1 input{
+    background-color: white;
+    border-radius: 15px;
+    border: none;
+    padding: 8px 50px;
+}
+
+.footer-1 button{
+    background-color: #3C2313;
+    padding: 8px 15px;
+    border-radius: 15px;
+    border: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 9px;
+    line-height: 11px;
+    color: #FFFFFF;
+}
+
+.footer-2 {
+    display: flex;
+    justify-content: space-around;
+    background-color:#3C2313;
+   
+}
+
+.footer-datos{
+    display: flex;
+    flex-direction: column;
+    padding: 20px ;
+    
+}
+.footer-informacion{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.footer-info-content{
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+}
+
+.infromación-1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    margin: 0;
+
+}
+
+.infromación-2{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;
+    color: #8A8787;
+    margin: 0;
+}
+
+.footer-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-3{
+    background-color:black ;
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #FFFFFF;
+
+}
+.footer-3 p{
+    margin: 0;
+}
