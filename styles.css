@@ -1,263 +1,44 @@
-body{
+body {
     font-family: 'Roboto', sans-serif;
 }
 
-.encabezado{
+.encabezado {
     background-color: black;
+    color: white;
     font-style: normal;
     font-weight: normal;
     font-size: 10px;
     line-height: 12px;
-    color: white;
-    padding: 4px 8.25px 4px 90px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 60px;
+    align-items: center;
 }
 
+.lista {
+    display: flex;
+}
 .lista li {
-    display: inline-block;
-    padding:0 5px 0 5px;
+    padding: 1px 6px;
 }
 
-.lista{
-    display: inline;
-    float: right;
-
-}
-.destacados li{
-    display: inline-block;
-    padding: 0 5px 0 5px;
-    color:#666666; 
-    font-style: normal;
-    font-weight: normal;
-    font-size: 15px;
-    line-height: 18px;
-}
-.destacados{
-    text-align: center;
-    margin-bottom: 25px ;
-}
-
-
-.menu{ 
+.menu {
     background-color: #F0A83E;
-    font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 13px;
     line-height: 15px;
-    color: white;
-    padding: 24px 24px;
-
-    }
-
-.image-petshop{
-    background-image: url("./img/Imagen1.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    height:409px;
-    position: relative;
+    color:#FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+.menu li {
+    padding: 1px 6px;
 }
 
-a{
-    color: white;
-}
-
-h1{
-    font-style: normal;
-    font-weight: bold;
-    font-size: 40px;
-    line-height: 47px;
-    color: #3C2313;
-
-}
-
-h2{
-    font-style: normal;
-    font-weight: bold;
-    font-size: 25px;
-    line-height: 29px;
-    color: #3C2313;
-}
-
-h3{
-    font-style: normal;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 23px;
-    color: white;
-}
-
-h4{
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 18px;
-
-}
-
-.footer-1{
-    background-color: #F0A83E;
-    color: white;
-}
-
-.footer-2{
-    background-color: #3C2313;
-    color: white;
-    padding: 30px;
-}
-
-.footer-3{
-    background-color: black;
-    color: white
-}
-.caja-1{
-    border-radius: 5px;
-    padding: 5px;
-    display: inline-block;
-    text-align: center;
-    position: absolute;
-    right: 90px;
-    top: 180px;
-}
-
-.caja-1 h2 {
-    background-color: white;
-    margin-bottom: 12px;
-    padding: 10px;
-}
-
-
-.anuncio{
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 19px;
-    color:  #3C2313;
-    margin-bottom: 12px;
-}
-
-.button-1{
-    background-color: #F0A83E;
-    border: none;
-    border-radius: 5px;
-    padding: 15px 23px 15px 23px;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 19px;
-    color: white;
-}
-.huella{
-    display: block;
-    margin: auto;
-}
-.center{
-    text-align: center;
-    margin: 15px;
-}
-
-.formulario {
-    width: 350px;
-    margin: 0 auto;
-    margin-bottom: 75px;
-}
-
-.formulario input{
-    display: block;
-    background-color: #3C2313;
-    border: none;
-    border-radius: 15px;
-    padding:  10px 100px 10px 100px ;
-    margin-bottom: 10px;
-}
-
-.formulario-botones {
-    text-align: center;
-}
-
-.button-2{
-    display: inline-block;
-    background-color: #8A8787;
-    border: none;
-    border-radius: 15px;
-    padding: 8px 7px 25px 22px;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 19px;
-    color: white;
-}
-
-.button-3{
-    display: inline-block;
-    background-color:  #F0A83E;
-    border: none;
-    border-radius: 15px;
-    padding: 8px 7px 25px 22px;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 19px;
-    color: white;
-}
-
-.infromación-1{
-    display: block;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 23px;
-    color: white;
-    
-}
-.infromación-2{
-    display: block;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 10px;
-    line-height: 12px;
-    color: #8A8787;
-}
-.contacto {
-    display: inline-block;
-    width: 100%;
-    margin-bottom: 20px;
-}
-
-.contacto img {
-    float: left;
-}
-
-.contacto div {
-    margin-left: 90px;
-}
-
-.izquierda {
-    width: 50%;
-}
-
-.derecha {
-    width: 50%;
-    background-color: yellow;
-}
-
-/*
-    PRODUCTOS
-*/
-
-.productos {
-    margin: 0 auto;
-    text-align: center;
-    margin-bottom: 75px;
-}
-
-.tarjeta {
-    display: inline-block;
-    margin-left: 10px;
-    margin-right: 10px;
-    background-color: #faf9f6;
-    padding: 7px;
-}
-
-.tarjeta p {
-    text-align: center;
+.menu a {
+    color:#FFFFFF;
+    text-decoration: none;
 }
