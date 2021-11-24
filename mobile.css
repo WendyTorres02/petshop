@@ -1,4 +1,4 @@
-@media (max-width: 480px){
+@media (max-width: 769px){
      .encabezado {
          display: none;
      }
@@ -10,6 +10,11 @@
      .menu {
          padding: 15px;
      }
+     .mobile-menu{
+        display:flex;
+        justify-content: flex-end;
+        width: 100%;
+    }
      .caja-1{
          align-items: flex-end;
     }
@@ -18,8 +23,8 @@
          text-align: center;
     }
     .destacado ul{
-        display: flex;
-        justify-content: space-between ;
+        list-style-type: none;
+        padding: 0;
     }
 
     .productos{

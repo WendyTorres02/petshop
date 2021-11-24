@@ -42,6 +42,9 @@ body {
     color:#FFFFFF;
     text-decoration: none;
 }
+.mobile-menu{
+    display: none;
+}
 
 .image-petshop {
     background-image: url(./img/Imagen1.png);
@@ -261,7 +264,7 @@ body {
     display: flex;
     justify-content: space-between;
     background-color:#3C2313;
-    padding: 20px 50px;
+    padding: 20px 50px 0 50px;
    
 }
 
