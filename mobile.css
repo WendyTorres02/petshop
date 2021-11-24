@@ -1,0 +1,78 @@
+@media (max-width: 480px){
+     .encabezado {
+         display: none;
+     }
+     
+     .lista{
+         display: none;
+     }
+
+     .menu {
+         padding: 15px;
+     }
+     .caja-1{
+         align-items: flex-end;
+    }
+     .destacado h1{
+         width: 200px;
+         text-align: center;
+    }
+    .destacado ul{
+        display: flex;
+        justify-content: space-between ;
+    }
+
+    .productos{
+        flex-direction: column;
+        
+    }
+    .tarjeta{
+        margin-bottom: 30px;
+    }
+    .formulario h2{
+        font-size: 40px;
+        line-height: 47px;
+        margin-top: 20px;
+    }
+    .formulario button{
+        margin-bottom: 50px;
+
+    }
+    .formulario input{
+        width: 298px;
+       
+    } 
+    .button-izquierda{
+        width: 199px;
+        height: 45px;
+    }   
+    .button-derecha{
+        width: 199px;
+        height: 45px;
+    }
+    .footer-1{
+        flex-direction: column;
+        align-items: flex-start;
+        
+    }
+    .footer-1 input{
+        margin-bottom: 10px;
+    }
+    .footer-1 button{
+        width: 100px;
+        height: 35px;
+    }
+    .footer-2{
+        flex-direction: column-reverse;
+    }
+    .infromación-1{
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .footer-3{
+        font-size: 13px;
+        line-height: 15px;
+        padding: 5px;
+    }
+
+}

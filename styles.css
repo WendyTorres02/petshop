@@ -129,9 +129,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin: 0 500px;
+    margin: 0 auto;
 
 }
+
+
 .tarjeta {
     display: flex;
     align-items: center;
@@ -183,7 +185,8 @@ body {
     background-color: #3C2313;
     border: none;
     border-radius: 15px;
-    padding:  10px 100px ;
+    height: 40px;
+    width: 340px;
     margin-bottom: 10px;
     color: white;
 }
@@ -204,12 +207,15 @@ body {
 
 .button-izquierda{
     background-color: #8A8787;
-    padding: 8px 25px;
+    width: 110px;
+    height: 34px;
+    
 }
 
 .button-derecha{
     background-color: #F0A83E;
-    padding: 8px 35px;
+    width: 110px;
+    height: 34px;
     
 }
 
@@ -233,12 +239,14 @@ body {
     background-color: white;
     border-radius: 15px;
     border: none;
-    padding: 8px 50px;
+    width: 271px;
+    height: 40px;
 }
 
 .footer-1 button{
     background-color: #3C2313;
-    padding: 8px 15px;
+    width: 70px;
+    height: 34px;
     border-radius: 15px;
     border: none;
     font-family: Roboto;
@@ -251,8 +259,9 @@ body {
 
 .footer-2 {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color:#3C2313;
+    padding: 20px 50px;
    
 }
 
@@ -260,7 +269,7 @@ body {
     display: flex;
     flex-direction: column;
     padding: 20px ;
-    
+        
 }
 .footer-informacion{
     display: flex;
@@ -299,9 +308,12 @@ body {
 }
 
 .footer-3{
+    display: flex;
+    justify-content: center;
     background-color:black ;
     font-family: Roboto;
     font-style: normal;
+    font-weight: bold;
     font-size: 10px;
     line-height: 12px;
     color: #FFFFFF;
